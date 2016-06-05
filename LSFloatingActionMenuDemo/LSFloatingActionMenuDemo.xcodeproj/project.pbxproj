@@ -13,8 +13,8 @@
 		B12DAA7E1CC507C200FF1FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12DAA7C1CC507C200FF1FB5 /* Main.storyboard */; };
 		B12DAA801CC507C200FF1FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B12DAA7F1CC507C200FF1FB5 /* Assets.xcassets */; };
 		B12DAA831CC507C200FF1FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B12DAA811CC507C200FF1FB5 /* LaunchScreen.storyboard */; };
-		B12DAA8D1CC5081100FF1FB5 /* LSFloatingActionMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B12DAA8C1CC5081100FF1FB5 /* LSFloatingActionMenu.m */; };
-		B12DAA901CC5082B00FF1FB5 /* LSFloatingActionMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B12DAA8F1CC5082B00FF1FB5 /* LSFloatingActionMenuItem.m */; };
+		B19B4EB21D045AAA00F6A13F /* LSFloatingActionMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B4EAF1D045AAA00F6A13F /* LSFloatingActionMenu.m */; };
+		B19B4EB31D045AAA00F6A13F /* LSFloatingActionMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B19B4EB11D045AAA00F6A13F /* LSFloatingActionMenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		B12DAA7F1CC507C200FF1FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B12DAA821CC507C200FF1FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B12DAA841CC507C200FF1FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B12DAA8B1CC5081100FF1FB5 /* LSFloatingActionMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFloatingActionMenu.h; sourceTree = "<group>"; };
-		B12DAA8C1CC5081100FF1FB5 /* LSFloatingActionMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFloatingActionMenu.m; sourceTree = "<group>"; };
-		B12DAA8E1CC5082B00FF1FB5 /* LSFloatingActionMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFloatingActionMenuItem.h; sourceTree = "<group>"; };
-		B12DAA8F1CC5082B00FF1FB5 /* LSFloatingActionMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFloatingActionMenuItem.m; sourceTree = "<group>"; };
+		B19B4EAE1D045AAA00F6A13F /* LSFloatingActionMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFloatingActionMenu.h; sourceTree = "<group>"; };
+		B19B4EAF1D045AAA00F6A13F /* LSFloatingActionMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFloatingActionMenu.m; sourceTree = "<group>"; };
+		B19B4EB01D045AAA00F6A13F /* LSFloatingActionMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFloatingActionMenuItem.h; sourceTree = "<group>"; };
+		B19B4EB11D045AAA00F6A13F /* LSFloatingActionMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFloatingActionMenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		B12DAA721CC507C200FF1FB5 /* LSFloatingActionMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B12DAA8A1CC507EB00FF1FB5 /* LSFloatingActionMenu */,
+				B19B4EAD1D045AAA00F6A13F /* LSFloatingActionMenu */,
 				B12DAA761CC507C200FF1FB5 /* AppDelegate.h */,
 				B12DAA771CC507C200FF1FB5 /* AppDelegate.m */,
 				B12DAA791CC507C200FF1FB5 /* ViewController.h */,
@@ -86,15 +86,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B12DAA8A1CC507EB00FF1FB5 /* LSFloatingActionMenu */ = {
+		B19B4EAD1D045AAA00F6A13F /* LSFloatingActionMenu */ = {
 			isa = PBXGroup;
 			children = (
-				B12DAA8B1CC5081100FF1FB5 /* LSFloatingActionMenu.h */,
-				B12DAA8C1CC5081100FF1FB5 /* LSFloatingActionMenu.m */,
-				B12DAA8E1CC5082B00FF1FB5 /* LSFloatingActionMenuItem.h */,
-				B12DAA8F1CC5082B00FF1FB5 /* LSFloatingActionMenuItem.m */,
+				B19B4EAE1D045AAA00F6A13F /* LSFloatingActionMenu.h */,
+				B19B4EAF1D045AAA00F6A13F /* LSFloatingActionMenu.m */,
+				B19B4EB01D045AAA00F6A13F /* LSFloatingActionMenuItem.h */,
+				B19B4EB11D045AAA00F6A13F /* LSFloatingActionMenuItem.m */,
 			);
-			path = LSFloatingActionMenu;
+			name = LSFloatingActionMenu;
+			path = ../../LSFloatingActionMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +171,9 @@
 			files = (
 				B12DAA7B1CC507C200FF1FB5 /* ViewController.m in Sources */,
 				B12DAA781CC507C200FF1FB5 /* AppDelegate.m in Sources */,
-				B12DAA901CC5082B00FF1FB5 /* LSFloatingActionMenuItem.m in Sources */,
+				B19B4EB31D045AAA00F6A13F /* LSFloatingActionMenuItem.m in Sources */,
 				B12DAA751CC507C200FF1FB5 /* main.m in Sources */,
-				B12DAA8D1CC5081100FF1FB5 /* LSFloatingActionMenu.m in Sources */,
+				B19B4EB21D045AAA00F6A13F /* LSFloatingActionMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +320,7 @@
 				B12DAA891CC507C200FF1FB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
