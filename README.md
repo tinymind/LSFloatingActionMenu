@@ -13,7 +13,9 @@ Add [LSFloatingActionMenu](https://github.com/tinymind/LSFloatingActionMenu/tree
 
 ### CocoaPods
 
-Coming Soon...
+```
+    pod 'LSFloatingActionMenu', '~> 1.0.0'
+```
 
 ## Usage
 
